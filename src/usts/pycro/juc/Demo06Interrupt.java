@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0
  * 2023-07-18 10:17 AM
  */
-public class Demo06LockInterruptibly {
+public class Demo06Interrupt {
     public static void main(String[] args) throws InterruptedException {
         Object myLock = new Object();
         // A线程启动
